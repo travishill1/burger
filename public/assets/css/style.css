@@ -4,8 +4,32 @@ li {
   background: #faebd7;
 }
 
+li:hover {
+  background-color: red;
+}
+
 .label {
   font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+  color: yellow;
+  background-color: black;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+}
+h2 {
+  font-size: 30px;
+  color: yellow;
+  background-color: black;
+}
+
+body {
+  background-image: url("../img/heart-disease.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .create-update-form {
@@ -16,4 +40,57 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.app-area {
+  max-width: 90%;
+  /* text-align: center; */
+}
+
+.hot-food {
+max-width: 50%;
+/* float: left; */
+display: inline-block;
+margin: auto;
+margin-right: 20%;
+margin-left: 10%;
+}
+
+.devoured-area {
+max-width: 50%;
+float: right;
+/* display: inline-block; */
+margin: auto;
+margin-right: 10%;
+}
+
+.cook-area {
+  /* clear: both; */
+  background-color: yellow;
+  /* max-width: 25%; */
+  margin: auto;
+  margin-top: 25%;
+  height: 135px;
+  /* display: inline-block; */
+}
+
+.points-area {
+  /* max-width: 25%; */
+  background-color: yellow;
+  margin: auto;
+  margin-top: 25%;
+  height: 135px;
+  /* display: inline-block; */
+}
+
+#points-display {
+  background-color: yellow;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-area {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
 }

@@ -1,4 +1,11 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
+var hdpoints = 0;
+$(".hot-food").on("click", function(event) {
+  $("#points-display") += 1;
+  // hdpoints += 1;
+  console.log(hdpoints);
+})
+
 $(function() {
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
